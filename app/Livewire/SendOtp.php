@@ -15,7 +15,7 @@ class SendOtp extends Component
     #[Rule('required|numeric|digits:6')] 
     public $otp;
 
-    protected $otpGenerated;
+    public $otpGenerated;
 
     protected $sms;
 
